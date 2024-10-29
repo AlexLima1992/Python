@@ -25,6 +25,16 @@ print ("Valor do Reajuste: R$ ", Val_Reajuste)
 print ("Salário Novo: R$ ", (Sal_antigo + Val_Reajuste))
 
 #Exercicio 4#
+Nome_do_Produto = input("Digite o Nome do Produto:")
+Preco_Unitario = float(input("Digite o Preço Unitário: R$ "))
+Quantidade = int(input("Digite a Quantidade:"))
+Total = Quantidade * Preco_Unitario
+
+
+print ("Produto:", Nome_do_Produto) 
+print ("Preço Unitário: R$", Preco_Unitario) 
+print ("Quantidade: ", Quantidade)
+print ("Valor Total: R$", Total)
 
 
 
