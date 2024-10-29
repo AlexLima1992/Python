@@ -1,6 +1,9 @@
-Nome = "Notbook Acer 1500cb"
-Valor =  2859.58
+Nome = input("Digite o Nome do Produto")
+Valor = float(input("Digita o Valor do Produto"))
 Desconto = (Valor * 0.1)
+
+print ("\n")
+
 print ("Nome do Produto: ", Nome)
 print ("Preço: R$", Valor)
-print ("Desconto: ", Desconto )
+print ("Desconto: R$ ", Desconto )
