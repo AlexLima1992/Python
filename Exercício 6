@@ -1,0 +1,6 @@
+Nome = "Notbook Acer 1500cb"
+Valor =  2859.58
+Desconto = (Valor * 0.1)
+print ("Nome do Produto: ", Nome)
+print ("Preço: R$", Valor)
+print ("Desconto: ", Desconto )
