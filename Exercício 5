@@ -2,4 +2,4 @@ num1 = int(input("Digite o valor em Reais R$: "))
 num2 = 5.71
 
 print ("O dólar hoje é R$ :", num2)
-print ("Valor de R$", num1, "em Dolar U$ é: ", num1 / num2)
+print ("Valor de R$", num1, "em Dolar U$ é: ", num1 * num2)
