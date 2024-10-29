@@ -1,4 +1,30 @@
+#Exercicio 1#
+
 num1 = float(input("Digite o valor em Dolar U$: "))
 num2 = 5.76
 
 print ("Valor de U$", num1, "em Reais R$ é: ", num1 * num2)
+
+
+#Exercicio 2#
+num1 = float(input("Digite o valor em Reais R$: "))
+num2 = 5.84
+
+print ("O Bath Tailandez hoje é R$ :", num2)
+print ("Valor de R$", num1, "em Bath é THB$ : ", num1 * num2)
+
+#Exercicio 3#
+Nome = input("Digite o Nome do Funcionário:")
+Sal_antigo = float(input("Digite o Salário Antigo: R$ "))
+Val_Reajuste = (Sal_antigo * 0.20)
+
+print ("\n")
+
+print ("Salário Antigo: R$", Sal_antigo )
+print ("Valor do Reajuste: R$ ", Val_Reajuste)
+print ("Salário Novo: R$ ", (Sal_antigo + Val_Reajuste))
+
+#Exercicio 4#
+
+
+
