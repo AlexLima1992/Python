@@ -1,0 +1,12 @@
+Nome = input("Digite o Nome do Funcionário:")
+bruto = float(input("Digite o Salário Bruto: R$ "))
+Inss = (bruto * 0.1)
+VT = (bruto * 0.06)
+liquido = (bruto - Inss - VT)
+print ("\n")
+
+print ("Funcionário: ", Nome)
+print ("Salário Bruto: R$",bruto )
+print ("INSS: R$ ", Inss )
+print ("VT R$: ", VT)
+print ("Salário Liquido: R$", liquido)
