@@ -1,0 +1,4 @@
+num1 = float(input("Digite o valor em Dolar U$: "))
+num2 = 5.76
+
+print ("Valor de U$", num1, "em Reais R$ é: ", num1 * num2)
