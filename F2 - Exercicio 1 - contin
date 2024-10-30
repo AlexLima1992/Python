@@ -1,1 +1,22 @@
+# Exercicio 7#
+Nome_do_Produto = input("Digite o Nome do Produto:")
+Preco_Unitario = float(input("Digite o Preço do Produto: R$ "))
+Desconto = int(input("Digite o percentual de desconto:"))
+Valor_desconto = (Preco_Unitario * Desconto/100)
+
+print ("Nome do Produto:", Nome_do_Produto) 
+print ("Preço: R$", Preco_Unitario) 
+print ("Desconto R$: ", Valor_desconto)
+
+# Exercicio 8 #
+Valor_inicial = int(input("Digite o Valor Inicial: R$"))
+Período = int(input("Digite o Período: "))
+Taxa = (2/100)
+Taxa2 = (0.02*100)
+Valor_Final = Valor_inicial * (Taxa + 1 ) ** Período
+
+print ("Valor Inicial:", Valor_inicial) 
+print ("Período:", Período) 
+print ("Taxa: ", Taxa2,"%") 
+print ("Valor Final: ", Valor_Final)
 
