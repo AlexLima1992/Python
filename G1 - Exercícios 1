@@ -1,0 +1,59 @@
+# Exercicio 1 #
+Nome = input("Digite o seu Nome")
+Idade = int (input("Digite o sua idade"))
+
+if Idade >= 18:
+    print ("Você é Maior de idade!")
+else:
+    print ("Você é Menor de Idade!")
+
+# Exercicio 2 #
+Nome = input("Digite o seu Nome:")
+Idade = int (input("Digite o sua idade:"))
+
+if Idade <16:
+    print ("Não Precisa votar!")
+    
+elif Idade >= 18 and Idade <70: 
+    print ("Voto obrigatório!") 
+
+else:
+    print ("Voto Facultativo!") 
+
+# Exercicio 4 #
+Nome = input("Digite o seu Nome:")
+Peso = float (input("Digite o seu Peso em KG:"))
+Altura = float (input("Digite o sua autura em M2:"))
+IMC = (Peso / (Altura * Altura))
+
+if  IMC <18.5:
+    print ("baixo peso")
+elif IMC >=18.5 and IMC <=24.9:
+    print ("peso adequado")
+elif IMC >=25 and IMC <= 29.9:
+    print ("sobrepeso")
+elif IMC >= 30 and IMC <=34.9:
+    print ("obesidade grau I")
+
+elif IMC >=35 and IMC <=39.9 :
+    print ("obesidade grau II")
+else:
+     print ("obesidade grau III")
+print (IMC)    
+
+# Exercicio 5 #
+Real = float(input("Digite o valor em Real R$:"))
+Resposta = input("Converter para Dolar ou Euro?")
+
+Dolar = 5.76
+Euro = 6.26
+
+if Resposta == "Dolar":
+    Dolar = Real / Dolar
+    print ("Dolar: ", Dolar)
+    
+elif Resposta == "Euro":
+    Euro = Real / Euro 
+    print ("Euro: ", Euro)
+
+
