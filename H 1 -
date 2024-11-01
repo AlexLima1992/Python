@@ -1,0 +1,25 @@
+# Exercicio 1 #
+
+Real = float(input("Digite o valor em Real R$:"))
+Resposta = input("Converter para Dolar, Euro ou Bath?")
+
+Dolar = 5.87
+Euro = 6.36
+Bath = 5.78
+print ("\n")
+print ("Valor em Real R$: ", Real)
+
+if Resposta == "Dolar":
+    Dolar = Real * Dolar
+    print ("Valor em Dolar: ", Dolar)
+    
+elif Resposta == "Euro":
+    Euro = Real * Euro 
+    print ("Valor em Euro: ", Euro)
+    
+    
+elif Resposta == "Bath":
+    Bath = Real * Bath 
+    print ("Valor em Bath: ", Bath)   
+
+# Exercicio 2 # 
