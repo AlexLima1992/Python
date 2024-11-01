@@ -37,15 +37,15 @@ Juros = Total*0.05
 print ("\n")
 print ("Nome do Produto: ", Nome_do_Produto) 
 print ("Preço Unitário: R$", Preco_Unitario) 
-print ("Quantidade: ", Quantidade)
+print ("Quantidade: ", Quantidade, "undidade(s)")
 
 if Resposta == "PIX":
     Total = Total - Descpix 
-    print ("Valor Total : ", Total - Descpix)
+    print ("Valor Total : R$", Total)
     
 elif Resposta == "Cartão 1x":
-    print ("Valor Total: ", Total)
+    print ("Valor Total: R$", Total)
 
 elif Resposta == "Cartão 2x":
     Total = Total + Juros
-    print ("Valor Total: ", Total)
+    print ("Valor Total: R$", Total)
