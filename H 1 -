@@ -49,3 +49,52 @@ elif Resposta == "Cartão 1x":
 elif Resposta == "Cartão 2x":
     Total = Total + Juros
     print ("Valor Total: R$", Total)
+
+# Exercicio 3# 
+Nome_do_Funcionário = input("Digite o Nome do Funcionário:")
+Salário = float(input("Digite o Salário: R$ "))
+Meta = float(input("Digite a Meta Atingida:"))
+
+Prêmio1 = Salário*0.2
+Prêmio2 = Salário*0.05
+Prêmio3 = Salário*0.1 
+
+print ("\n")
+print ("Nome do Funcionário: ", Nome_do_Funcionário) 
+print ("Salário: R$", Salário) 
+print ("Meta atingida: R$", Meta) 
+
+if Salário <3000 and Meta>=50000:
+    print ("Premiação: R$", Prêmio1)
+
+elif Salário >5000 and Meta>=50000:
+    print ("Premiação: R$", Prêmio2)     
+    
+elif Salário >=3000 and Salário <=5000 and Meta>=50000:
+    print ("Premiação: R$", Prêmio3)
+
+else:
+    print("Sem Premiação")
+
+# Outro Forma de fazer a 3 #
+Nome_do_Funcionário = input("Digite o Nome do Funcionário:")
+Salário = float(input("Digite o Salário: R$ "))
+Meta = float(input("Digite a Meta Atingida:"))
+
+if Meta < 50000:
+    premio = 0
+
+elif Salário <3000 and Meta>=50000:
+    premio = Salário * 0.20
+
+elif Salário >5000 and Meta>=50000:
+   premio = Salário * 0.05  
+    
+else:
+   premio = Salário * 0.10
+   
+print ("\n")
+print ("Nome do Funcionário: ", Nome_do_Funcionário) 
+print ("Salário: R$", Salário) 
+print ("Meta atingida: R$", Meta) 
+print ("Prêmiação: R$", premio) 
