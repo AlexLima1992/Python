@@ -28,7 +28,7 @@ if login == "Admin" and Senha == "123":
             
     elif Resposta == "Cartão 2x":
         Total = Total + Juros
-    print ("Valor a Pagar: R$", Total)
+        print ("Valor a Pagar: R$", Total)
 
 else:
     print("Login ou Senha invalidos")   
