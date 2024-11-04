@@ -1,0 +1,34 @@
+# Exercicio 1 #
+login = input("Digite o Login")
+Senha =  input ("Digite a senha")
+
+if login == "Admin" and Senha == "123":
+ 
+    Nome_do_Produto = input("Digite o Nome do Produto:")
+    Preco_Unitario = float(input("Digite o Preço Unitário: R$ "))
+    Quantidade = int(input("Digite a Quantidade:"))
+    Resposta = input("Digite a Forma de Pagamento, PIX, Cartão 1x ou Cartão 2x:")
+    
+    Total = Quantidade * Preco_Unitario
+    Descpix = Total*0.15 
+    Desc1x = Total
+    Juros = Total*0.05
+    
+    print ("\n")
+    print ("Nome do Produto: ", Nome_do_Produto) 
+    print ("Preço Unitário: R$", Preco_Unitario) 
+    print ("Quantidade: ", Quantidade, "undidade(s)")
+    
+    if Resposta == "PIX":
+        Total = Total - Descpix 
+        print ("Valor a Pagar: R$", Total)
+        
+    elif Resposta == "Cartão 1x":
+        print ("Valor a Pagar: R$", Total)
+            
+    elif Resposta == "Cartão 2x":
+        Total = Total + Juros
+    print ("Valor a Pagar: R$", Total)
+
+else:
+    print("Login ou Senha invalidos")   
