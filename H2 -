@@ -32,3 +32,50 @@ if login == "Admin" and Senha == "123":
 
 else:
     print("Login ou Senha invalidos")   
+
+# Exercicio 2 #
+
+print ("Vamos Fazer o seu Cadatro Inicial")
+
+Usuario = input("Digite o Login de Usuário")
+Senha =  input ("Digite a senha")
+
+Login = input ("Digite o Login")
+Senha2 = input ("Digite a senha")    
+
+
+if Login == Usuario and Senha == Senha2:
+    print ("Bem Vindo,", Usuario,"!")
+    
+else:
+    print("Dados Inválidos")
+
+# Exercicio 3 #
+
+print ("Vamos Fazer o seu Cadatro Inicial ok?")
+
+Usuario = input("Digite o Login de Usuário")
+Senha =  input ("Digite a senha")
+
+    
+print ("\n")
+print ("Agora efetue login para acessar o sistema")
+Login = input ("Digite o Login")
+Senha2 = input ("Digite a senha")    
+
+
+if Login == Usuario and Senha == Senha2:
+    print ("Bem Vindo,", Usuario,"!")
+    
+    print ("\n")  
+    print ("Vamos Calcular a área do triangulo?")
+    base =  int(input("Qual o valor da Base?"))
+    altura = float(input("Qual o valor da Altura?"))
+    area = base * altura /2 
+    print ("\n")
+    print ("Base:", base)
+    print ("Altura:", altura)
+    print ("Área do Triangulo:", area,"m²")
+    
+else:
+    print("Dados Inválidos")
