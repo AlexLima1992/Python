@@ -69,7 +69,7 @@ if Login == Usuario and Senha == Senha2:
     
     print ("\n")  
     print ("Vamos Calcular a área do triangulo?")
-    base =  int(input("Qual o valor da Base?"))
+    base =  float(input("Qual o valor da Base?"))
     altura = float(input("Qual o valor da Altura?"))
     area = base * altura /2 
     print ("\n")
