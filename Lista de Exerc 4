@@ -16,3 +16,22 @@ if Sexo == "F":
     
 elif Sexo == "M":
     print ("e você é Homem")   
+
+# Exercicio 3 #
+
+Nome = input("Digite o seu Nome: ")
+
+while True:
+     print ("Deseja inserir outro nome? Sim ou Não?")
+     Resposta = input ()
+     
+     if Resposta == "Sim":
+         Nome = input("Digite o outro Nome: ")
+         continue
+     elif Resposta == "Não":
+         break
+     else:
+         print ("Comando Inválido - Digite apenas Sim ou Não")
+
+# Exercicio 4 #
+
