@@ -1,0 +1,18 @@
+
+# Exercicio 1 #
+Nome = input("Digite o seu Nome: ")
+Idade = int(input("Digita a sua Idade:"))
+Sexo = input("Informe o seu Sexo: M ou F ")
+
+print ()
+if Idade >=18:
+    print ("Você é maior de idade")   
+
+elif Idade <=17:
+    print ("Você é menor de idade")   
+    
+if Sexo == "F":
+    print ("e você Mulher")
+    
+elif Sexo == "M":
+    print ("e você é Homem")   
