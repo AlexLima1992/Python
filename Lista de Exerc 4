@@ -34,4 +34,27 @@ while True:
          print ("Comando Inválido - Digite apenas Sim ou Não")
 
 # Exercicio 4 #
+numero = int(input("Digite um número para exibir a tabuada: "))
+
+for i in range(1, 10):
+    print (numero, " x ", i, " = ", numero * i,)  
+
+# Exercicio 5 #
+
+Nome = input("Digite o seu Nome:")
+Class = int (input("Digite sua classificação de 0 a 10"))
+ 
+if Class >= 8 and Class <= 10:
+    nota = "A"
+    print("Nome do Funcionário: ", Nome), print ("Nota: ", nota)
+elif Class >= 5 and Class <= 7:
+    nota = "B"
+    print("Nome do Funcionário: ", Nome), print ("Nota: ", nota)
+elif Class <5:
+    nota = "C"
+    print("Nome do Funcionário: ", Nome), print ("Nota: ", nota)
+else:
+    print("Classificação Inválida - Considere de 0 a 10 somente.")
+
+
 
