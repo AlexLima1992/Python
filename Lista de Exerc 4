@@ -56,5 +56,13 @@ elif Class <5:
 else:
     print("Classificação Inválida - Considere de 0 a 10 somente.")
 
+# Exercício 6 #
+M = 0
+for i in range(1, 5):
+    Num = int(input("Digite um numero: "))
 
+    if Num > M:
+       M = Num
+
+print("O maior Numero é o:", M)
 
