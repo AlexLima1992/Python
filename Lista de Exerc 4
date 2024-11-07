@@ -66,3 +66,44 @@ for i in range(1, 5):
 
 print("O maior Numero é o:", M)
 
+
+# PROGRAMA QUE GERENCIA RESERVAS DE HOTEL #
+
+print ("Olá Bem Vindo ao Hotel AGL 5 Estrelas")
+Nome = input ("Por Favor Digite o seu Nome:")
+print()
+print ("Seja Bem Vindo, ", Nome,"!")
+print ("Temos disponivel dois tipos de acomodações; "), print("Solteiro: diária 100 reais e,"), print("Casal: diária 170 reais")
+print()
+Quarto = input ("Qual quarto teria intetesse? Solteiro ou Casal?")
+print("Perfeito", Nome,"!")
+print()
+
+Dias = int(input("E por quantos dias você pretende se hospedar conosco?"))
+print("Ótimo", Nome,"!")
+print()
+
+print ("E qual seria a forma de pagamento")
+Pagamento = input("PIX com 10% de desconto? ou Cartão, sem desconto?")
+print("Maravilha", Nome,"! Confira abaixo o resumo da sua reserva")
+print()
+
+print ("Nome do hóspede:", Nome)
+print ("Tipo de quarto: ", Quarto)
+print ("No de dias: ", Dias)
+
+if Quarto == "Solteiro":
+    Quarto = 100
+    print ("Valor total: R$", Quarto * Dias)
+elif Quarto == "Casal":
+    Quarto = 170
+    print ("Valor total: R$", Quarto * Dias)
+
+if Pagamento == "PIX":
+    Desconto = Quarto * Dias / 0,1
+    print("Desconto: R$", Desconto)
+    
+
+#Desconto#
+#Valor a pagar#
+
