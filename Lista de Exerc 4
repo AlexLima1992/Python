@@ -100,8 +100,12 @@ elif Quarto == "Casal":
     print ("Valor total: R$", Quarto * Dias)
 
 if Pagamento == "PIX":
-    Desconto = Quarto * Dias / 0,1
+    Desconto = Quarto * Dias * 0.1
     print("Desconto: R$", Desconto)
+
+elif Pagamento == "Cartão":
+    print ("Desconto: R$ 0,00")
+    
     
 
 #Desconto#
