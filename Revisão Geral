@@ -1,0 +1,38 @@
+# Exercicio 1 #
+nome = input("Por favor Digite o Nome do Produto:") # O usuário inserirá o produto #
+preco = float(input("Agora Digite o Preço: ")) # O usuário informará o preço unitário #
+
+# Se o preco maior que 2000 não terá desconto, se menor 20% de desconto #
+
+if preco < 2000:
+    desconto = 0.00   # se o preço for menor que R$ 2000 o desconto será igual a 0 #
+else:
+    desconto = preco * 0.2   # então se o preço for maior que R$ 2000 o desconto será de 20% do preço #
+print () # um espaço pra saída #
+
+print ("Nome do Produto: ", nome) # Saida do Nome #
+print ("Preço R$ : ", preco) # Saida do preço #
+print ("Desconto R$ : ", desconto)  # Saida do desconto #
+print ("Preço Final R$: ", preco - desconto) # Saida do preço final que é o Preço menos o Desconto, caso haja #
+
+# Exercicio 2 #
+Pais = input("Digite o nome de um pais: ") # Usuário insere o Pais #
+
+for i in range(1, 6): # Laço de repetição em 6x#
+    print ("Agora digite outro pais:") # Usuário repete a ação#
+    Resposta = input () # Armazena a Resposta # 
+
+ # Exercicio 3 #
+
+while True: # Laço de Repetição #
+    nome = input("Por favor Digite o Nome:") # O usuário inserirá o nome #
+    idade = int(input("Agora Digite sua idade: ")) # O usuário informará a idade #
+    print("Nome digitado : ", nome) #Exibe o nome na tela#
+    print("Idade: ", idade), print() # exibe a idade na tela, e dá espaço #
+
+    Resposta =  input("Deseja inserir novo Nome e idade? S ou N") # pergunta se quer continuar inserindo #
+    if Resposta == "N": # condiçao caso negativo #
+       break # sair do programa 
+
+print ("Que pena que você não quer mais brincar") # Mensagem de despedida final# 
+
