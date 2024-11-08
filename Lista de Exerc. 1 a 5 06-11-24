@@ -7,15 +7,25 @@ Sexo = input("Informe o seu Sexo: M ou F ")
 print ()
 if Idade >=18:
     print ("Você é maior de idade")   
-
 elif Idade <=17:
     print ("Você é menor de idade")   
-    
 if Sexo == "F":
     print ("e você Mulher")
-    
 elif Sexo == "M":
-    print ("e você é Homem")   
+    print ("e você é Homem")  
+
+# Exercicio 2 #
+Nome = input("Digite o seu Nome:")
+Idade = int (input("Digite o sua idade:"))
+
+if Idade <16:
+    print ("Não Precisa votar!")
+    
+elif Idade >= 18 and Idade <70: 
+    print ("Voto obrigatório!") 
+
+else:
+    print ("Voto Facultativo!") 
 
 # Exercicio 3 #
 
