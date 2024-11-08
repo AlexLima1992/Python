@@ -85,7 +85,7 @@ print()
 
 print ("E qual seria a forma de pagamento")
 Pagamento = input("PIX com 10% de desconto? ou Cartão, sem desconto?")
-print("Maravilha", Nome,"! Confira abaixo o resumo da sua reserva")
+print("Maravilha", Nome,"!"), print("Confira abaixo o resumo da sua reserva")
 print()
 
 print ("Nome do hóspede:", Nome)
@@ -102,12 +102,11 @@ elif Quarto == "Casal":
 if Pagamento == "PIX":
     Desconto = Quarto * Dias * 0.1
     print("Desconto: R$", Desconto)
-
+    print("Valor Total das Diarias: R$ ", (Quarto * Dias)-( Quarto * Dias * 0.1))
 elif Pagamento == "Cartão":
-    print ("Desconto: R$ 0,00")
-    
-    
+    print ("Desconto: R$ 0,00 - Sem Desconto!")
+    print("Valor Total a Pagar: R$ ", (Quarto * Dias))
 
-#Desconto#
-#Valor a pagar#
-
+print()    
+print("Podemos Confirmar a sua reserva?")
+    
