@@ -1,0 +1,17 @@
+# Exercicio 1 - Lista 6 #
+
+while True: # Laço de Repetição #
+    nome = input("Por favor Digite o Nome:") # O usuário inserirá o nome #
+    idade = int(input("Agora Digite sua idade: ")) # O usuário informará a idade #
+    sexo = input("Digite o sexo") # O usuário informará o sexo #
+    print("Nome digitado : ", nome) #Exibe o nome na tela#
+    print("Idade: ", idade), # exibe a idade na tela"
+    print("Sexo: ", sexo)
+
+    Resposta =  input("Deseja inserir Novamente? S ou N") # pergunta se quer continuar inserindo #
+    if Resposta == "N": # condiçao caso negativo #
+       break # sair do programa 
+
+print ("Obrigo pelas suas informações! Boa noite") # Mensagem de despedida final# 
+
+
