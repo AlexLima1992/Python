@@ -32,10 +32,11 @@ while True:
         break
 
 # Exercicio 4 #
-numero = int(input("Digite um número para exibir a tabuada: "))
 
-for i in range(1, 10):
-    print (numero, " x ", i, " = ", numero * i,)  
+numero = int(input("Digite um número para exibir a tabuada: "))
+i=0
+for i in range(0, 10):
+    print (numero, " x ", i, " = ", numero * i,)   
 
 # Exercicio 5 # 
 
