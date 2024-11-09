@@ -14,4 +14,52 @@ while True: # Laço de Repetição #
 
 print ("Obrigo pelas suas informações! Boa noite") # Mensagem de despedida final# 
 
+# Exercicio 2 #
+for i in range (1, 6):
+    nome = input("Por favor Digite o Nome:") # O usuário inserirá o nome #
+    idade = int(input("Agora Digite sua idade: ")) # O usuário informará a idade #
+print("Nome: ", nome)
+print("Idade: ",idade)
+
+# Exercicio 3 #
+while True:
+    login = input("Digite o Login")
+    Senha =  input ("Digite a senha")
+    if login != "Admin" or Senha != "123":
+        print("Dados não conferem, digite novamente!")
+    else: 
+        print(login, ", seja bem-vindo!")
+        break
+
+# Exercicio 4 #
+numero = int(input("Digite um número para exibir a tabuada: "))
+
+for i in range(1, 10):
+    print (numero, " x ", i, " = ", numero * i,)  
+
+# Exercicio 5 # 
+
+Nome = input("Digite o seu Nome do Aluno:")
+Class = int (input("Digite a Nota:"))
+print()
+
+if Class >= 40 and Class <= 59:
+    nota = "Recuperação"
+    print("Nome do Aluno: ", Nome), print ("Situação do Aluno: ", nota)
+elif Class >= 60:
+    nota = "Aprovado"
+    print("Nome do Aluno: ", Nome), print ("Situação do Aluno: ", nota)
+elif Class < 40:
+    nota = "Reprovado"
+    print("Nome do Aluno: ", Nome), print ("Situação do Aluno: ", nota)
+print ("Nota: ", Class)
+
+
+# Exercício 6 #
+M = 0
+for i in range(1, 9):
+    Num = int(input("Digite um numero: "))
+    if Num > M:
+       M = Num
+print("O maior Numero é o:", M)
 
