@@ -105,9 +105,10 @@ while True:
     else:
         print ("Comando Inválido - Digite apenas Sim ou Não")  
 
+# VERTOR #
+
 pessoas = []
 
-# VERTORE #
 while True:
     nome = input ("Digite um nome:")
     idade = input ("Digite a idade:")
