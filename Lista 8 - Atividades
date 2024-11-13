@@ -1,0 +1,71 @@
+# Exercicio 1 Lista 8 # 
+
+pessoas = []
+
+for i in range (0,8):
+    nome = input ("Digite um nome:")
+    pessoas.append (nome)
+    
+print ("Nomes inseridos:") 
+for (nome) in pessoas: 
+    print(nome)
+
+
+# Exercicio 2 - Lista 8 #
+
+while True:
+    Nome = input("Digite o seu Nome:")
+    Idade = int (input("Digite o sua idade:"))
+
+    if Idade <16:
+        print ("Não Precisa votar!")
+        print()
+    
+    elif Idade >= 18 and Idade <70: 
+        print ("Voto obrigatório!") 
+        print()
+
+    else:
+        print ("Voto Facultativo!") 
+            
+        print()
+    
+    continuar = input ("Deseja digitar novo nome e idade? Sim ou Não?")
+
+    if continuar != "Sim" and continuar == "Não":
+        print("Programa Finalizado!")
+        break
+
+
+
+
+# Exercicio 3 - Lista 8 #
+
+while True:
+    login = input("Digite o Login")
+    Senha = input ("Digite a senha")
+    
+    if login == "Admin" and Senha == "123":
+        print("Bem vindo,", login)
+        while True:        
+            funcionario = input("Digite o Nome do Funcionário:")
+            salario = float(input("Digite o salário: "))
+            reajuste = salario*0.1
+            print()
+            print("Nome do Funcioário: ", funcionario)
+            print("Salário: R$", salario)
+            print("Reajuste: R$",reajuste)
+            print("Novo Salário: R$", salario+reajuste)
+                
+            print() 
+            continuar = input ("Deseja inserir um novo funcionário? Sim ou Não")
+            
+            if continuar != "Sim":
+                print("Progrma Finalizado!")
+                break
+        
+        break
+    else: 
+        print ('Dados incorretos, digite novamente.')
+        continue
+       
