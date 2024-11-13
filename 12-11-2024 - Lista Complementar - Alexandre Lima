@@ -1,0 +1,130 @@
+# Exercicio 2 #
+
+
+while True:
+    Nome_do_Produto = input("Digite o Nome do Produto:")
+    Preco_Unitario = float(input("Digite o Preço Unitário: R$ "))
+    Quantidade = int(input("Digite a Quantidade:"))
+    Resposta = input("Digite a Forma de Pagamento, PIX ou Cartão:")
+
+    Total = Quantidade * Preco_Unitario
+    Descpix = Total*0.15 
+    Desc1x = Total
+    
+    print ("\n")
+    print ("Nome do Produto: ", Nome_do_Produto) 
+    print ("Preço Unitário: R$", Preco_Unitario) 
+    print ("Quantidade: ", Quantidade, "undidade(s)")
+    
+    
+    if Resposta == "PIX":
+        Total = Total - Descpix 
+        print ("Desconto: ", Descpix)
+        print ("Valor a Pagar: R$", Total)
+        print()
+    elif Resposta == "Cartão":
+        print ("Desconto: Pgto com Cartão não tem desconto")
+        print ("Valor a Pagar: R$", Total)
+        
+        print()
+    
+    continuar = input ("Deseja efetuar uma nova venda? Sim ou Não")
+
+    if continuar != "Sim" and continuar == "Não":
+        print("Programa Finalizado!")
+        break
+
+else:
+    print("Login ou Senha invalidos")   
+
+    # Exercicio 3  #
+
+print ("Olá! Vamos fazer alguns cálculos?"), 
+while True:
+    print("Primeiro preciso saber: Qual cálculo você deseja fazer?")
+    print ("1 - A área de um TRIANGULO?"), print("2 - A área de um QUADRADO?"), print("3 - O valor de PI?")
+    resposta = input("Resposta: ")
+    
+    if resposta == "1":
+        print ("\n")  
+        print ("OK! Então vamos calcular a área do triangulo:")
+        base =  float(input("Qual o valor da Base?"))
+        altura = float(input("Qual o valor da Altura?"))
+        area = base * altura /2 
+        print ("\n")
+        print ("Base:", base)
+        print ("Altura:", altura)
+        print ("Área do Triangulo:", area,"m²")
+        print()
+        
+    elif resposta == "2":
+        print ("\n")  
+        print ("OK! Então vamos calcular a área do quadrado:")
+        lado =  float(input("Qual o valor de um dos lados?"))
+        area = lado*lado
+        print ("\n")
+        print ("Lado :", lado)
+        print ("Área do Quadrado:", area,"m²")
+        print()
+        
+    elif resposta == "3":
+        print ("\n")  
+        PI = "3,14159265"
+        print ("OK! O valor de PI é:", PI,)
+        print()
+
+    
+    continuar = input ("Deseja efetuar um novo cálculo? Sim ou Não?")
+    print()
+
+    if continuar != "Sim" and continuar == "Não":
+        print("Programa Finalizado!")
+        break
+
+# Exercicio 4 #
+
+num1 = int(input("Digite um numero:"))
+num2 = int(input("Digite um numero:"))
+num3 = int(input("Digite um numero:"))
+num4 = int(input("Digite um numero:"))
+
+print ("Agora escolha qual calculo deseja efetuar:"), 
+while True:
+    print ("1 - SOMA?"), print("2 - Média?"), print("3 - Multiplicação?")
+    resposta = input("Resposta: ")
+    
+    if resposta == "1":
+        print ("\n")  
+        print ("OK! Então vamos calcular a SOMA:")
+        soma = (num1 +num2 + num3 + num4)
+        print ("\n")
+        print ("Numeros :", num1, num2, num3, num4 )
+        print ("Soma é =", soma)
+        print()
+        
+    elif resposta == "2":
+        print ("\n")  
+        print ("OK! Então vamos calcular a MÉDIA:")
+        media = (num1 +num2 + num3 + num4)/4
+        print ("\n")
+        print ("Numeros :", num1, num2, num3, num4 )
+        print ("Média é =", media)
+        print()
+        print()
+        
+    elif resposta == "3":
+        print ("OK! Então vamos calcular a Multiplicação:")
+        multiplica = (num1 * num2 * num3 * num4)
+        print ("\n")
+        print ("Numeros :", num1, num2, num3, num4 )
+        print ("A Multiplicação é =", multiplica)
+        print()
+    
+    continuar = input ("Deseja efetuar um novo cálculo? Sim ou Não?")
+    print()
+
+    if continuar != "Sim" and continuar == "Não":
+        print("Programa Finalizado!")
+        break
+        
+        
